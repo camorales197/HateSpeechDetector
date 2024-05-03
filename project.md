@@ -41,3 +41,12 @@ Submit a comment for classification:
 ```
 curl -X POST http://localhost:8000/predict/ -H "Content-Type: application/json" -d '{"text": "Insert comment here.."}' 
 ```
+
+The result would be something like:
+
+```
+{
+    "original":"Insert comment here..",
+    "classification":"NonHateSpeech"
+}
+```
