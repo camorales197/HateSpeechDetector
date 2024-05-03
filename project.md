@@ -4,6 +4,8 @@
 
 This project is focused on developing and deploying a text classification model to detect hate speech in texts. A significant innovation in this project is the transition from sentence-level to comment-level classification, which effectively addresses the "relation" problem highlighted in prior studies. Additionally, the model goes beyond merely analyzing the hatefulness of individual words; it employs a transformer architecture to grasp the complex relationships between words within a context, thereby enhancing the accuracy of hate speech detection.
 
+We have used the data available at [hate-speech-dataset](https://github.com/Vicomtech/hate-speech-dataset/tree/master?tab=readme-ov-file)
+
 ## Approach
 
 ### Data Preparation
