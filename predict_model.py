@@ -10,7 +10,7 @@ class TextPredictor:
     def __init__(self):
         """Initialize the TextPredictor with model, pipeline, and cleaner configurations."""
         # Load your custom model and tokenizer
-        model_save_path = 'models/BAAI/bge-large-en-v1.5_finetuned'
+        model_save_path = "CarlosMorales/HateSpeechDetector"
         matryoshka_dim = 64
         self.model = SentenceTransformer(model_save_path, truncate_dim=matryoshka_dim)
         self.classifier = load('models/logistic_regression_classifier.joblib')
